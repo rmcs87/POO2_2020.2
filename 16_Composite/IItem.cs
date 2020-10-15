@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _16_Composite
+﻿public interface IItem
 {
-    class IItem
-    {
-    }
+    float GetVolume();
+    float GetPrice();
 }
+

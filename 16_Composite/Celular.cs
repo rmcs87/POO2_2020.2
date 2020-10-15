@@ -1,10 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _16_Composite
+﻿public class Celular : IItem
 {
-    class Celular
+    public float GetPrice()
     {
+        return 500.00f;
+    }
+
+    public float GetVolume()
+    {
+        return 1;
     }
 }
+

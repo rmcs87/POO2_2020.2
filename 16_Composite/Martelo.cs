@@ -1,10 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _16_Composite
+﻿public class Martelo : IItem
 {
-    class Martelo
+    public float GetPrice()
     {
+        return 15.0f;
+    }
+
+    public float GetVolume()
+    {
+        return 2;
     }
 }
+
