@@ -1,10 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace _17_Facade
+public class Loan
 {
-    class Loan
+    public bool CheckForOtherLoans(Client c)
     {
+        Console.WriteLine($"Cheking {c.Name} Loans ...");
+
+        return (new Random().Next(100) < 50 ? true : false);
     }
 }
