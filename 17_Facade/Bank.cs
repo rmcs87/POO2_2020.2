@@ -1,10 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace _17_Facade
+public class Bank
 {
-    class Bank
+    public bool CheckSavings(Client c, int amount)
     {
+        Console.WriteLine($"Cheking {c.Name} Savings ...");
+
+        return (new Random().Next(100) < 50 ? true : false);
     }
 }
+

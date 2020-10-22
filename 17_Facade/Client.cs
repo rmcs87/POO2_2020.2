@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _17_Facade
+﻿public class Client
 {
-    class Client
+    public Client(string name)
     {
+        Name = name;
     }
+
+    public string Name { get; private set; }
 }
