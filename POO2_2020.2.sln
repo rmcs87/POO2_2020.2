@@ -33,7 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_Facade", "17_Facade\17_F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18_Decorator", "18_Decorator\18_Decorator.csproj", "{5BF4A9DE-982E-466A-9205-B9621625BF46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19_Proxy", "19_Proxy\19_Proxy.csproj", "{6A1A49C4-106B-4D66-937A-50A5C2B0A6E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19_Proxy", "19_Proxy\19_Proxy.csproj", "{6A1A49C4-106B-4D66-937A-50A5C2B0A6E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20_FlyWeight", "20_FlyWeight\20_FlyWeight.csproj", "{2AAF1ACA-F419-4CF2-A3D2-1C43ACFA9C4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21_CoR", "21_CoR\21_CoR.csproj", "{FDAE31F2-EB36-4D80-A39D-B0D08000F262}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,14 @@ Global
 		{6A1A49C4-106B-4D66-937A-50A5C2B0A6E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A1A49C4-106B-4D66-937A-50A5C2B0A6E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A1A49C4-106B-4D66-937A-50A5C2B0A6E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AAF1ACA-F419-4CF2-A3D2-1C43ACFA9C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AAF1ACA-F419-4CF2-A3D2-1C43ACFA9C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AAF1ACA-F419-4CF2-A3D2-1C43ACFA9C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AAF1ACA-F419-4CF2-A3D2-1C43ACFA9C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDAE31F2-EB36-4D80-A39D-B0D08000F262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDAE31F2-EB36-4D80-A39D-B0D08000F262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDAE31F2-EB36-4D80-A39D-B0D08000F262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDAE31F2-EB36-4D80-A39D-B0D08000F262}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
