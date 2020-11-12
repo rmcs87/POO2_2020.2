@@ -9,7 +9,7 @@ public class SistemaDeVendas
     public string Phone { get; set; }
     public decimal Budget { get; set; }
 
-    public Memento SaveMemento()
+    public IMemento SaveMemento()
     {
         Console.WriteLine("Salvando");
         return new Memento(Name, Budget);
