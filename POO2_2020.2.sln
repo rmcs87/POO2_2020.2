@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21_CoR", "21_CoR\21_CoR.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22_Command", "22_Command\22_Command.csproj", "{413555B7-4985-477B-AEF0-C7FD59C8E948}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23_Memento", "23_Memento\23_Memento.csproj", "{334667AE-A299-4B4E-ACB0-0DA06538B6A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "23_Memento", "23_Memento\23_Memento.csproj", "{334667AE-A299-4B4E-ACB0-0DA06538B6A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24_State", "24_State\24_State.csproj", "{585DA413-55CF-4A60-A288-79D2E4015526}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{334667AE-A299-4B4E-ACB0-0DA06538B6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{334667AE-A299-4B4E-ACB0-0DA06538B6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{334667AE-A299-4B4E-ACB0-0DA06538B6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{585DA413-55CF-4A60-A288-79D2E4015526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{585DA413-55CF-4A60-A288-79D2E4015526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{585DA413-55CF-4A60-A288-79D2E4015526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{585DA413-55CF-4A60-A288-79D2E4015526}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
